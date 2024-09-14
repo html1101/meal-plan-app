@@ -1,18 +1,38 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import TaskBar from './TaskBar/TaskBar'
+import Welcome from './Welcome/Welcome'
+import Home from './Home/Home';
+import Questions from './Questions/Questions';
+
+enum AppState {
+  Welcome,
+  Questions,
+  Results
+}
+
+export type QuestionType = {
+  amount: number,
+  store: string
+}
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [ appState, setAppState ] = useState(AppState.Questions);
+  const [ saveQuestions, setQuestionAnswers ] = useState<QuestionType | null>(null);
 
+  console.log("Got results to questions: ", saveQuestions);
   return (
-    <>
+    <div className="content_body">
       <TaskBar />
-      <h1>Meal Plan</h1>
+      <div className="content">
+        {
+          appState === AppState.Welcome ? <Welcome /> :
+          appState === AppState.Questions ? <Questions setQuestionAnswers={setQuestionAnswers}/> :
+          <Home />
+        }
+      </div>
       {/* https://www.w3schools.com/ */}
-    </>
+    </div>
   )
 }
 

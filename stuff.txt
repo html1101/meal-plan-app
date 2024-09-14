@@ -1,0 +1,63 @@
+[
+  {
+    name: 'Meal 1: Yogurt Parfait',
+    ingredients: [ 'yogurt', 'granola', 'berries' ]
+  },
+  {
+    name: 'Meal 2: Avocado Toast with Egg',
+    ingredients: [ 'bread', 'avocado', 'white eggs' ]
+  },
+  { name: 'Meal 3: Cereal', ingredients: [ 'cereal', 'milk' ] },
+  {
+    name: 'Meal 4: Bagel with Cream Cheese',
+    ingredients: [ 'bagel', 'cream cheese' ]
+  },
+  {
+    name: 'Meal 5: Oatmeal',
+    ingredients: [ 'instant oatmeal', 'berries' ]
+  },
+  {
+    name: 'Meal 6: Protein Shake',
+    ingredients: [ 'protein powder', 'milk', 'bananas', 'kale', 'yogurt', 'honey' ]
+  },
+  {
+    name: 'Meal 7: French Toast',
+    ingredients: [ 'bread', 'berries', 'honey', 'bananas', 'white eggs' ]
+  }
+]
+[
+  {
+    name: 'Meal 1: Yogurt Parfait',
+    ingredients: [ 'yogurt', 'granola', 'berries' ]
+  },
+  {
+    name: 'Meal 2: Avocado Toast with Egg',
+    ingredients: [ 'bread', 'avocado', 'white eggs' ]
+  },
+  { name: 'Meal 3: Cereal', ingredients: [ 'cereal', 'milk' ] },
+  {
+    name: 'Meal 4: Bagel with Cream Cheese',
+    ingredients: [ 'bagel', 'cream cheese' ]
+  },
+  {
+    name: 'Meal 5: Oatmeal',
+    ingredients: [ 'instant oatmeal', 'berries' ]
+  },
+  {
+    name: 'Meal 6: Protein Shake',
+    ingredients: [ 'protein powder', 'milk', 'bananas', 'kale', 'yogurt', 'honey' ]
+  },
+  {
+    name: 'Meal 7: French Toast',
+    ingredients: [ 'bread', 'berries', 'honey', 'bananas', 'white eggs' ]
+  }
+] [
+  'yogurt',          'granola',
+  'berries',         'bread',
+  'avocado',         'white eggs',
+  'cereal',          'milk',
+  'bagel',           'cream cheese',
+  'instant oatmeal', 'protein powder',
+  'bananas',         'kale',
+  'honey'
+]
