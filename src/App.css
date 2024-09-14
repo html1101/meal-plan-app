@@ -27,6 +27,15 @@
   }
 }
 
+/* App.css */
+body {
+  background-color: #87A4E8; /* Set the desired background color */
+  margin: 0; /* Remove default margins */
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

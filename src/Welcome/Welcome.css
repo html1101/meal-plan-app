@@ -1,0 +1,16 @@
+.Welcome {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: row;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    /* background: #87A4E8; */
+    color: (#2B303A);
+    font-weight: 500;
+    font-size:40px;
+}
