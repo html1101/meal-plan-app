@@ -17,7 +17,7 @@ export type QuestionType = {
 }
 
 function App() {
-  const [ appState, setAppState ] = useState(AppState.Questions);
+  const [ appState, setAppState ] = useState(AppState.Welcome);
   const [ saveQuestions, setQuestionAnswers ] = useState<QuestionType | null>(null);
 
   console.log("Got results to questions: ", saveQuestions);
@@ -35,5 +35,7 @@ function App() {
     </div>
   )
 }
+
+
 
 export default App

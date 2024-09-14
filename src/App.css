@@ -19,4 +19,6 @@
   flex-grow: 1;
   position: relative;
   overflow-y: auto;
+  background: var(--maroon-pink);
+  background: linear-gradient(129deg, rgba(164,119,139,0.5) 16%, rgba(135,164,232,0.5) 77%);
 }
