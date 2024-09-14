@@ -1,8 +1,11 @@
 import "./Start.css";
 
-export default function Start (){
-    <div className="start-button">
+const Start: React.FC = () => {
+    return (
+      <div className="Start">
         <div>Start!</div>
-    {/* <button className="start-button">Start</button> */}
-    </div>;
-}
+      </div>
+    );
+  }
+  
+  export default Start;
