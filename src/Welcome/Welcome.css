@@ -14,3 +14,17 @@
     font-weight: 500;
     font-size:40px;
 }
+
+.Description {
+    position: fixed;
+    top: 350px; /* Move towards the bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 70%;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically within its area */
+    font-weight: 500;
+    font-size: 20px;
+    color: #2B303A; /* Use proper color format */
+}
